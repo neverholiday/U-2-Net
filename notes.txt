@@ -1,0 +1,13 @@
+#   How to setup U2Net for testing with client material
+1. Create virtualenv for this project, 'python3 -m venv ~/u2net_modules' 
+2. Activate virtualenv, 'source ~/u2net_modules/bin/activate'. You will see (u2net_modules) at your terminal.
+3. Upgrade pip version, 'pip install --upgrade pip'
+4. Access to this repo and use command, 'pip install -r requirements.txt'
+5. Wait a minute ror noi ror noi.
+6. DO NOT forget to download model weight and place at ./saved_models/u2net.
+7. Modified "myCustomPath" in u2net_test.py to your test_data directory.
+9. Your test_data should have structure like this:
+    test_data
+        |-------test_images (input image)
+        |-------u2net_results (result image)
+10. Run!!!
